@@ -7,7 +7,7 @@ class Retangulo():
         area = self.largura * self.altura
         return area
 
-retangulo = Retangulo(5, 10)
+retangulo = Retangulo(7, 12)
 
 area_do_retangulo = retangulo.obter_area()
 print(f"A área do retângulo é: {area_do_retangulo}.")
