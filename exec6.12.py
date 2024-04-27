@@ -1,5 +1,5 @@
-lista1 = [1,2,3,4,5]
-lista2 = [3,4,5,6,7]
+lista1 = [1,3,8,11,12]
+lista2 = [3,6,5,12,27]
 
 resultado = list(set(lista1) & set(lista2))
 
