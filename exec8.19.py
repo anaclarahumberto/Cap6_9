@@ -16,5 +16,5 @@ class LivroDeBiblioteca(Livro):
         super().mostrar_dados()
         print(f"Código: {self.codigo}")
 
-livro_biblioteca = LivroDeBiblioteca(titulo="Dom Quixote", autor="Miguel de Cervantes", codigo="DQ123")
+livro_biblioteca = LivroDeBiblioteca(titulo="O verão que mundo a minha vida", autora="Jenny Han", codigo="JP189")
 livro_biblioteca.mostrar_dados()
