@@ -1,7 +1,6 @@
 # O tratamento adequado de exceções pode melhorar a qualidade do código e torná-lo mais robusto, aumentando a confiabilidade do programaem geral.
 
-
-numero = 10
+numero = 8
 divisor = 0
 
 try:
