@@ -8,8 +8,8 @@ class Pessoa:
         print(f"Idade: {self.idade}")
 
 
-pessoa1 = Pessoa("Maria", 30)
-pessoa2 = Pessoa("João", 25)
+pessoa1 = Pessoa("Elouise", 24)
+pessoa2 = Pessoa("Anthony", 35)
 
 
 pessoa1.mostrar_dados()
