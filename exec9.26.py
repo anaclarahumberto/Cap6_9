@@ -1,8 +1,7 @@
 import MeuModulo
 
 try:
-    # Chamando a função dividir do módulo
-    resultado = MeuModulo.dividir(10, "A")
+    resultado = MeuModulo.dividir(14, "A")
     print("Resultado da divisão:", resultado)
 except ZeroDivisionError:
     print("Erro: Divisão por zero não é permitida.")
