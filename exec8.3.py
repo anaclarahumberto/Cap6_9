@@ -23,11 +23,11 @@ class ContaBancaria:
 minha_conta = ContaBancaria()
 
 
-minha_conta.depositar(100)
+minha_conta.depositar(150)
 minha_conta.exibir_saldo()
 
-minha_conta.sacar(50)
+minha_conta.sacar(53)
 minha_conta.exibir_saldo()
 
-minha_conta.sacar(70) 
+minha_conta.sacar(60) 
 minha_conta.exibir_saldo()
