@@ -18,6 +18,6 @@ class ProdutoImportado(Produto):
         preco_com_imposto = self.preco * (1 + self.imposto / 100)
         print(f"Preço final com imposto: R$ {preco_com_imposto}")
 
-produto_importado = ProdutoImportado(nome="Notebook", preco=2500, quantidade_estoque=10, imposto=15)
+produto_importado = ProdutoImportado(nome="Hing Light", preco=180, quantidade_estoque=17, imposto=11)
 produto_importado.mostrar_dados()
 produto_importado.preco_final()
