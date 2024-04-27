@@ -9,6 +9,6 @@ class Cachorro(Animal):
     def emitir_som(self):
         print(f"{self.nome} faz 'au au'.")
 
-cachorro = Cachorro(nome="Rex")
+cachorro = Cavalo(nome="Trovão")
 
 cachorro.emitir_som()
