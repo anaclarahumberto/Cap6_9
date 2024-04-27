@@ -11,8 +11,8 @@ class Fracao:
         novo_denominador = self.denominador * outra_fracao.denominador
         return Fracao(novo_numerador, novo_denominador)
 
-fracao1 = Fracao(numerador=2, denominador=3)
-fracao2 = Fracao(numerador=4, denominador=5)
+fracao1 = Fracao(numerador=3, denominador=4)
+fracao2 = Fracao(numerador=5, denominador=6)
 
 fracao1.mostrar_dados()
 fracao2.mostrar_dados()
