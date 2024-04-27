@@ -19,7 +19,7 @@ class Funcionario(Pessoa):
         super().mostrar_dados()
         print(f"Salário: {self.salario}")
 
-pessoa = Funcionario("Rafael", 18, 100000)
+pessoa = Funcionario("Josh", 22, 50000)
 pessoa.aumentar_salario(0.1)
 pessoa.mostrar_dados()
 
