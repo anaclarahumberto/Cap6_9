@@ -4,6 +4,6 @@ def fatorial(n):
     else:
         return n * fatorial(n - 1)
 
-numero = 5
+numero = 7
 resultado = fatorial(numero)
 print("O fatorial de", numero, "é", resultado)
