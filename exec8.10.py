@@ -16,5 +16,5 @@ class Cliente(Pessoa):
         super().mostrar_dados()
         print(f"Endereço: {self.endereco}")
 
-pessoa1 = Cliente("Rafael", 19, "Uberlandia")
+pessoa1 = Cliente("Alex", 20, "Maiorca")
 pessoa1.mostrar_dados()
