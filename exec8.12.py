@@ -16,10 +16,10 @@ class Carro(Veiculo):
         super().__init__()
         self.marca = marca
 
-carro = Carro(marca="Toyota")
+carro = Carro(marca="Ferrari")
 
 print(f"Marca do carro: {carro.marca}")
-carro.acelerar(50)
+carro.acelerar(70)
 carro.exibir_velocidade()
-carro.frear(20)
+carro.frear(38)
 carro.exibir_velocidade()
