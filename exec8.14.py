@@ -16,5 +16,5 @@ class LivroFisico(Livro):
         super().mostrar_dados()
         print(f"Número de páginas: {self.paginas}")
 
-livro_fisico = LivroFisico(titulo="Dom Casmurro", autor="Machado de Assis", paginas=300)
+livro_fisico = LivroFisico(titulo="A seleção", autor="Kiera Cass", paginas=363)
 livro_fisico.mostrar_dados()
